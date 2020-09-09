@@ -1,2 +1,2 @@
 # pythonScript
-Contains small scripts for personal use
+Contains scripts for personal use
