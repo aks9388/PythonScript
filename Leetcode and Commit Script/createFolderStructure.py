@@ -40,5 +40,5 @@ file.write("""<html>
 """)
 file.close()
 
-os.system("code "+filePath)
+os.system("code "+folderPath)
 print(fullProblemName)
