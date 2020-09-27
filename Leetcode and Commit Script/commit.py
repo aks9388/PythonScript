@@ -8,4 +8,5 @@ commitMessage = untrackedFiles[0].split("/")[0]
 print(commitMessage)
 repo.index.add(untrackedFiles)
 repo.index.commit(commitMessage)
+repo.remotes.origin.pull()
 repo.remotes.origin.push()
